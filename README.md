@@ -7,4 +7,4 @@ Following [unit-testing-made-easy](https://medium.com/rungo/unit-testing-made-ea
 - [x] Separation of test using `calc -> code package` and `calc_test` as test package.
 
 What this repository contains;
-- [x] Reflection in golang `reflect` package. [reflection](/reflect/README.md)
+- [x] Reflection in golang `reflect` package. [reflection](/reflecttion/README.md)
