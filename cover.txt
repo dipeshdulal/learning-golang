@@ -1,0 +1,5 @@
+mode: set
+wesionary.team/dipeshdulal/golang-test/main.go:7.13,9.2 1 0
+wesionary.team/dipeshdulal/golang-test/main.go:11.32,12.20 1 1
+wesionary.team/dipeshdulal/golang-test/main.go:15.2,15.39 1 1
+wesionary.team/dipeshdulal/golang-test/main.go:12.20,14.3 1 1
