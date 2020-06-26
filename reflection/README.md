@@ -17,3 +17,7 @@ It Allows to examine, modify and create variables, functions and structs at runt
 #### Notes
 - Memoization is a process of creating function that wraps the functions and remembers the input and output of the program so that work is only done once per set of input values. For same input values output values should not change (functional programming principle) so for this return values are pulled from cache rather than recomputed. For functions that do complex or slow things, the performance saving can be tremendous. Memoization are also used in microservices architecture to avoid extra network calls.
 
+- There is performance penalty for generated functions or middle layer which is caused by reflection. Although the performance penaltity doesnot seem that much we still need to decide if the added functionality is worth the slower performance and more complicated code.
+
+- When there is a problem that contains dynamic data types and cannot know the data types before hand then the reflection can be used.
+
