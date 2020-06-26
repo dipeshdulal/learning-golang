@@ -10,5 +10,5 @@ What I did:
 - [x] Separation of test using `calc -> code package` and `calc_test` as test package.
 - [x] Reflection in golang `reflect` package. [reflection](/reflection/README.md)
 - [x] Using reflection in golang [memoization](/reflection/memoization/README.md). 
-- [ ] A Look at go routines.
-- [ ] Async task like; sending email from go routines.
+- [x] A Look at go routines.
+- [x] Async task like; sending email from go routines. using `gin framework`. `go SendEmail("Ola", "Ola Comoestas")` makes go routine and sends mail by using non-blocking way.
