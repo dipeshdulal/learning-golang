@@ -9,6 +9,6 @@ What I did:
 - [x] Look at multiple input problem [math_test.go](/calc/math_test.go).
 - [x] Separation of test using `calc -> code package` and `calc_test` as test package.
 - [x] Reflection in golang `reflect` package. [reflection](/reflection/README.md)
-- [ ] Using reflection in golang. 
+- [x] Using reflection in golang [memoization](/memoization/README.md). 
 - [ ] A Look at go routines.
 - [ ] Async task like; sending email from go routines.
