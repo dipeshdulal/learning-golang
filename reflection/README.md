@@ -10,3 +10,10 @@ It Allows to examine, modify and create variables, functions and structs at runt
 
 - `t := reflect.TypeOf(var)` to find the type of variable in runtime. Returns `Reflect.Type` type
 - In addition to examining types of variables, we can use it to read, set or create values. Providing value in `ValueOf` means we are only reading the values. And providing pointer in `ValueOf` means we are changing the underlying variable.
+
+- Most common use of golang is marshaling and unmarshaling data from a file or network. We could also build memoization and short-term caching using reflection.
+
+
+#### Notes
+- Memoization is a process of creating function that wraps the functions and remembers the input and output of the program so that work is only done once per set of input values. For same input values output values should not change (functional programming principle) so for this return values are pulled from cache rather than recomputed. For functions that do complex or slow things, the performance saving can be tremendous. Memoization are also used in microservices architecture to avoid extra network calls.
+
