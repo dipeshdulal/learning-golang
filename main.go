@@ -2,15 +2,29 @@ package main
 
 import (
 	"fmt"
+	"log"
+
+	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
+	"wesionary.team/dipeshdulal/golang-test/sendmail"
 )
 
 func main() {
-	fmt.Println("Hello World")
-}
 
-func hello(user string) string {
-	if len(user) == 0 {
-		return "Hello Dude!"
+	if err := godotenv.Load(); err != nil {
+		log.Fatal("Error loading env file error: ", err.Error())
 	}
-	return fmt.Sprintf("Hello %v!", user)
+
+	fmt.Println("Hello World")
+
+	router := gin.Default()
+
+	router.GET("/send-email-sync", sendmail.SendMailSyncController)
+
+	router.GET("/send-email-async", sendmail.SendMailAsyncController)
+
+	router.GET("/check-smtp-server", sendmail.SendMailCheckConnection)
+
+	router.Run(":5000")
+
 }
