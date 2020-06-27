@@ -1,6 +1,8 @@
-### Testing in Go lang
+### Learning Go lang
 
-Following articles
+Just my learning process for `golang`
+
+Some of the articles I followed.
 - [unit-testing-made-easy](https://medium.com/rungo/unit-testing-made-easy-in-go-25077669318)
 - [learning-to-use-go-reflection](https://medium.com/capital-one-tech/learning-to-use-go-reflection-part-2-c91657395066)
 
@@ -12,3 +14,8 @@ What I did:
 - [x] Using reflection in golang [memoization](/reflection/memoization/README.md). 
 - [x] A Look at go routines.
 - [x] Async task like; sending email from go routines. using `gin framework`. `go SendEmail("Ola", "Ola Comoestas")` makes go routine and sends mail by using non-blocking way. [send-mail](/sendmail/README.md)
+- [ ] File upload in `go-gin` and base 64 encoding.
+- [ ] Build get request to struct parser using reflection. (exercise)
+- [ ] Dockerization of `go-gin` framework executables.
+- [ ] Look at Websocket Implementations in `golang`.
+- [ ] Try `grpc` in golang (maybe, build a simple console chat application).
