@@ -11,4 +11,4 @@ What I did:
 - [x] Reflection in golang `reflect` package. [reflection](/reflection/README.md)
 - [x] Using reflection in golang [memoization](/reflection/memoization/README.md). 
 - [x] A Look at go routines.
-- [x] Async task like; sending email from go routines. using `gin framework`. `go SendEmail("Ola", "Ola Comoestas")` makes go routine and sends mail by using non-blocking way.
+- [x] Async task like; sending email from go routines. using `gin framework`. `go SendEmail("Ola", "Ola Comoestas")` makes go routine and sends mail by using non-blocking way. [send-mail](/sendmail/README.md)
