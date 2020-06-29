@@ -21,6 +21,7 @@ What I did:
 - [x] Dockerization of `go-gin` framework executables. (check note below about dockerization)
 - [ ] Look at Websocket Implementations in `golang`.
 - [ ] Try `grpc` in golang (maybe, build a simple console chat application).
+- [x] Google bucket cloud storage in `gin`
 
 
 ### Dockerization
