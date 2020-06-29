@@ -8,6 +8,7 @@ import (
 	"github.com/joho/godotenv"
 	base64encdec "wesionary.team/dipeshdulal/golang-test/base64"
 	"wesionary.team/dipeshdulal/golang-test/fileupload"
+	"wesionary.team/dipeshdulal/golang-test/googlebucket"
 	"wesionary.team/dipeshdulal/golang-test/sendmail"
 )
 
@@ -29,11 +30,13 @@ func main() {
 
 	router.POST("/single-file-upload", fileupload.HandleSingleFileUpload)
 
-	router.POST("/multiple-file-upload", fileupload.HandleMultipleFileUpload)
-
 	router.POST("/base64-file-upload", base64encdec.HandleBase64FileUpload)
 
 	router.GET("/base64-octet-stream", base64encdec.HandleBase64OctetStream)
+
+	router.POST("/multiple-file-upload", fileupload.HandleMultipleFileUpload)
+
+	router.POST("/cloud-storage-bucket", googlebucket.HandleFileUploadToBucket)
 
 	router.Run(":5000")
 
