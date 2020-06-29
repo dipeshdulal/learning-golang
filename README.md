@@ -15,8 +15,8 @@ What I did:
 - [x] A Look at go routines. [goroutines](/goroutines/README.md)
 - [x] Async task like; sending email from go routines. using `gin framework`. `go SendEmail("Ola", "Ola Comoestas")` makes go routine and sends mail by using non-blocking way. [send-mail](/sendmail/README.md)
 - [x] File upload in `go-gin` single and multiple. [fileupload](/fileupload/README.md)
-- [ ] About base64 encoding and decoding.
-- [ ] File upload using base64 encoding.
+- [x] About base64 encoding and decoding. [encoding-decoding](/base64/README.md)
+- [x] File upload using base64 encoding. [handlers](/base64/encodingDecoding.go)
 - [ ] Build get request to struct parser using reflection. (exercise)
 - [ ] Dockerization of `go-gin` framework executables.
 - [ ] Look at Websocket Implementations in `golang`.
