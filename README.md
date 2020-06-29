@@ -18,6 +18,13 @@ What I did:
 - [x] About base64 encoding and decoding. [encoding-decoding](/base64/README.md)
 - [x] File upload using base64 encoding. [handlers](/base64/encodingDecoding.go)
 - [ ] Build get request to struct parser using reflection. (exercise)
-- [ ] Dockerization of `go-gin` framework executables.
+- [x] Dockerization of `go-gin` framework executables. (check note below about dockerization)
 - [ ] Look at Websocket Implementations in `golang`.
 - [ ] Try `grpc` in golang (maybe, build a simple console chat application).
+
+
+### Dockerization
+
+Check [go.Dockerfile](/go.Dockerfile) which container execution steps when creating docker image. 
+
+Command `docker-compose up -d` will create the container and `gin` app will run in `5000` port exposed. For different databases and other services we can just add another service to the `docker-compose.yml` file.
