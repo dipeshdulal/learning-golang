@@ -6,6 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
+	"wesionary.team/dipeshdulal/golang-test/fileupload"
 	"wesionary.team/dipeshdulal/golang-test/sendmail"
 )
 
@@ -24,6 +25,10 @@ func main() {
 	router.GET("/send-email-async", sendmail.SendMailAsyncController)
 
 	router.GET("/check-smtp-server", sendmail.SendMailCheckConnection)
+
+	router.POST("/single-file-upload", fileupload.HandleSingleFileUpload)
+
+	router.POST("/multiple-file-upload", fileupload.HandleMultipleFileUpload)
 
 	router.Run(":5000")
 

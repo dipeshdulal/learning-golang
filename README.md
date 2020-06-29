@@ -14,7 +14,8 @@ What I did:
 - [x] Using reflection in golang [memoization](/reflection/memoization/README.md). 
 - [x] A Look at go routines. [goroutines](/goroutines/README.md)
 - [x] Async task like; sending email from go routines. using `gin framework`. `go SendEmail("Ola", "Ola Comoestas")` makes go routine and sends mail by using non-blocking way. [send-mail](/sendmail/README.md)
-- [ ] File upload in `go-gin` and base 64 encoding.
+- [x] File upload in `go-gin` single and multiple. [fileupload](/fileupload/README.md)
+- [ ] File upload using base64 encoding.
 - [ ] Build get request to struct parser using reflection. (exercise)
 - [ ] Dockerization of `go-gin` framework executables.
 - [ ] Look at Websocket Implementations in `golang`.
