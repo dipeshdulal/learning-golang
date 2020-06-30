@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// JsonType json type
-type JsonType struct {
+// JSONType json type
+type JSONType struct {
 	Name string `json:"name"`
 	ID   int    `json:"id"`
 }
@@ -16,7 +16,7 @@ type JsonType struct {
 type GetRequestInput struct {
 	Name string   `getParser:"name" json:"name"`
 	ID   int      `getParser:"id"  json:"id"`
-	JSON JsonType `getParser:"json" json:"json"`
+	JSON JSONType `getParser:"json" json:"json"`
 }
 
 // HandleGetRequestParsing is used to check parsing request
