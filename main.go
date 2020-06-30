@@ -10,6 +10,7 @@ import (
 	"wesionary.team/dipeshdulal/golang-test/fileupload"
 	"wesionary.team/dipeshdulal/golang-test/googlebucket"
 	"wesionary.team/dipeshdulal/golang-test/sendmail"
+	"wesionary.team/dipeshdulal/golang-test/structparser"
 )
 
 func main() {
@@ -37,6 +38,8 @@ func main() {
 	router.POST("/multiple-file-upload", fileupload.HandleMultipleFileUpload)
 
 	router.POST("/cloud-storage-bucket", googlebucket.HandleFileUploadToBucket)
+
+	router.GET("/handle-request-parsing", structparser.HandleGetRequestParsing)
 
 	router.Run(":5000")
 
