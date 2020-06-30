@@ -17,7 +17,7 @@ What I did:
 - [x] File upload in `go-gin` single and multiple. [fileupload](/fileupload/README.md)
 - [x] About base64 encoding and decoding. [encoding-decoding](/base64/README.md)
 - [x] File upload using base64 encoding. [handlers](/base64/encodingDecoding.go)
-- [ ] Build get request to struct parser using reflection. (exercise)
+- [x] Build get request to struct parser using reflection. (exercise) [struct-parser](/structparser)
 - [x] Dockerization of `go-gin` framework executables. (check note below about dockerization)
 - [ ] Look at Websocket Implementations in `golang`.
 - [ ] Try `grpc` in golang (maybe, build a simple console chat application).
