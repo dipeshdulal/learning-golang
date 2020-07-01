@@ -19,8 +19,12 @@ What I did:
 - [x] File upload using base64 encoding. [handlers](/base64/encodingDecoding.go)
 - [x] Build get request to struct parser using reflection. (exercise) [struct-parser](/structparser)
 - [x] Dockerization of `go-gin` framework executables. (check note below about dockerization)
-- [ ] Look at Websocket Implementations in `golang`.
+- [x] Look at Websocket Implementations in `golang`. [websockets](/websockets)
+
+    Might need separate repository for fully implementing websockets.
+
 - [ ] Try `grpc` in golang (maybe, build a simple console chat application).
+
 - [x] Google bucket cloud storage in `gin`. [googlebucket](/googlebucket)
 
 
