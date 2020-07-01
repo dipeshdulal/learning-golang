@@ -23,7 +23,8 @@ What I did:
 
     Might need separate repository for fully implementing websockets.
 
-- [ ] Try `grpc` in golang (maybe, build a simple console chat application).
+- [x] Basic Hello World `grpc` app created. [gogrpc](/gogrpc)
+- [ ] Build a simple console chat application using `grpc`.
 
 - [x] Google bucket cloud storage in `gin`. [googlebucket](/googlebucket)
 
