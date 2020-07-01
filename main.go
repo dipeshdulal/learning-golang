@@ -11,6 +11,7 @@ import (
 	"wesionary.team/dipeshdulal/golang-test/googlebucket"
 	"wesionary.team/dipeshdulal/golang-test/sendmail"
 	"wesionary.team/dipeshdulal/golang-test/structparser"
+	"wesionary.team/dipeshdulal/golang-test/websockets"
 )
 
 func main() {
@@ -40,6 +41,8 @@ func main() {
 	router.POST("/cloud-storage-bucket", googlebucket.HandleFileUploadToBucket)
 
 	router.GET("/handle-request-parsing", structparser.HandleGetRequestParsing)
+
+	router.GET("/handle-websocket-echo", websockets.HandleWebsocketEchoRequest)
 
 	router.Run(":5000")
 

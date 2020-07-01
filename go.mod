@@ -6,6 +6,7 @@ require (
 	cloud.google.com/go/storage v1.10.0
 	github.com/fatih/color v1.9.0
 	github.com/gin-gonic/gin v1.6.3
+	github.com/gorilla/websocket v1.4.2
 	github.com/joho/godotenv v1.3.0
 	google.golang.org/api v0.28.0
 	google.golang.org/appengine v1.6.6
