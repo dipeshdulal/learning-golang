@@ -28,6 +28,7 @@ What I did:
 
 - [x] Google bucket cloud storage in `gin`. [googlebucket](/googlebucket)
 
+- [x] Golang channels for concurrency. [channels](/channels)
 
 ### Dockerization
 
