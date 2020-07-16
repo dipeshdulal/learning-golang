@@ -32,6 +32,8 @@ What I did:
 
 - [x] Mutal Exclusion in goroutines. `mutex.Lock()` and `mutex.Unlock()`
 
+- [x] Concurrency patterns in go. [concurrency](/concurrency)
+
 ### Dockerization
 
 Check [go.Dockerfile](/go.Dockerfile) which container execution steps when creating docker image. 
