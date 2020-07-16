@@ -1,5 +1,7 @@
 ### MemoryLeaks in go routines
 
+Example taken out from [here](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/ch04.html)
+
 There are two implementation of go routines provided in the example `main.go`
 Running the example produces:
 ```
