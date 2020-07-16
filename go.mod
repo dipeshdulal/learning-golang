@@ -7,6 +7,7 @@ require (
 	github.com/fatih/color v1.9.0
 	github.com/gin-gonic/gin v1.6.3
 	github.com/golang/protobuf v1.4.2
+	github.com/google/martian v2.1.0+incompatible
 	github.com/gorilla/websocket v1.4.2
 	github.com/joho/godotenv v1.3.0
 	google.golang.org/api v0.28.0
