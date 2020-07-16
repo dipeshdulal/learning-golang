@@ -6,3 +6,4 @@ Tutorial from: [concurrency-patterns-golang](https://medium.com/@thejasbabu/conc
 - [x] Generator Pattern. [generator](iterator)
 - [x] Future Pattern. [futures](futures)
 - [x] Fan In, Fan Out Pattern. [faninout](faninout)
+- [x] Go routine leaks and increasing responsibility of go channel producer. [leaks](routineleak)
