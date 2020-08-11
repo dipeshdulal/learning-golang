@@ -5,6 +5,7 @@ Just my learning process for `golang`
 Some of the articles I followed.
 - [unit-testing-made-easy](https://medium.com/rungo/unit-testing-made-easy-in-go-25077669318)
 - [learning-to-use-go-reflection](https://medium.com/capital-one-tech/learning-to-use-go-reflection-part-2-c91657395066)
+- [handling-panics](https://medium.com/swlh/simple-guide-to-panic-handling-and-recovery-in-golang-72d6181ae3e8)
 
 What I did:
 - [x] explored go test and coverage.
@@ -24,7 +25,7 @@ What I did:
     Might need separate repository for fully implementing websockets.
 
 - [x] Basic Hello World `grpc` app created. [gogrpc](/gogrpc)
-- [ ] Build a simple console chat application using `grpc`.
+- [x] Build a simple console chat application using `grpc`. [console-chat-grpc](https://github.com/dipeshdulal/grpc-samples/tree/master/console-chat)
 
 - [x] Google bucket cloud storage in `gin`. [googlebucket](/googlebucket)
 
@@ -33,6 +34,8 @@ What I did:
 - [x] Mutal Exclusion in goroutines. `mutex.Lock()` and `mutex.Unlock()`
 
 - [x] Concurrency patterns in go. [concurrency](/concurrency)
+
+- [x] Panic Handling in go. [panichandling](/panichandling)
 
 ### Dockerization
 
